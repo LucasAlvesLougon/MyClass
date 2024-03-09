@@ -345,18 +345,6 @@ input:-webkit-autofill
             z-index: 12;
         }
     
-        25% {
-            top: -80px;
-            opacity: .5;
-            /* z-index: 12; NÃO HÁ NECESSIDADE */
-        }
-    
-        50% {
-            top: -100px;
-            opacity: .2;
-            /* z-index: 12; NÃO HÁ NECESSIDADE */
-        }
-    
         to {
             top: -110px;
             opacity: 0;
@@ -371,18 +359,7 @@ input:-webkit-autofill
             top: 0;
             z-index: 12;
         }
-    
-        25% {
-            top: 80px;
-            /* z-index: 12;  NÃO HÁ NECESSIDADE*/
-        }
-    
-        50% {
-            top: 100px;
-            /* z-index: 12; NÃO HÁ NECESSIDADE*/
-            /* background-color: yellow;  Exemplo que dei no vídeo*/
-        }
-    
+
         to {
             top: 110px;
             z-index: -1;
@@ -398,21 +375,6 @@ input:-webkit-autofill
             height: 40%;
         }
     
-        25% {
-            top: 5%;
-            height: 50%;
-        }
-    
-        50% {
-            top: 25%;
-            height: 60%;
-        }
-    
-        75% {
-            top: 45%;
-            height: 50%;
-        }
-    
         to {
             top: 60%;
             height: 40%;
@@ -424,21 +386,6 @@ input:-webkit-autofill
         from {
             top: 60%;
             height: 40%;
-        }
-    
-        25% {
-            top: 45%;
-            height: 50%;
-        }
-    
-        50% {
-            top: 25%;
-            height: 60%;
-        }
-    
-        75% {
-            top: 5%;
-            height: 50%;
         }
     
         to {
